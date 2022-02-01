@@ -1,0 +1,36 @@
+{
+  "name": "@quisitive/server",
+  "private": false,
+  "version": "1.4.1",
+  "description": "Basic Server for Quisitive Webservices",
+  "homepage": "https://github.com/tomcwilliamson/cactus/tree/master/packages/server#readme",
+  "bugs": {
+    "url": "https://github.com/tomcwilliamson/cactus/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/tomcwilliamson/cactus.git"
+  },
+  "license": "MIT",
+  "author": "Quisitive LLC <support@quisitive.com> (http://quisitive.com)",
+  "contributors": [
+    "Support<support@quisitive.com>"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "@quisitive/errors": "^1.4.0",
+    "@quisitive/logger": "^2.3.0",
+    "@quisitive/node-application": "^4.2.0",
+    "@quisitive/utils": "^1.4.0",
+    "@quisitive/uuid": "^1.2.1",
+    "compression": "^1.7.4",
+    "config": "^3.2.2",
+    "express": "^4.17.1",
+    "helmet": "^3.21.0",
+    "ipaddr.js": "^1.9.1",
+    "lodash": "^4.17.15",
+    "on-headers": "^1.0.2",
+    "serve-favicon": "^2.5.0",
+    "sort-object-keys": "^1.1.2"
+  }
+}
